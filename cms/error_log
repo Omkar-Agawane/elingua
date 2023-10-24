@@ -1,0 +1,59 @@
+[21-Apr-2021 12:12:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:13:07 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:13:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/elinguah/public_html/cms/connect.php on line 3
+[21-Apr-2021 12:13:07 UTC] PHP Warning:  Use of undefined constant mysqli_connect_error - assumed 'mysqli_connect_error' (this will throw an Error in a future version of PHP) in /home/elinguah/public_html/cms/connect.php on line 6
+[21-Apr-2021 12:14:51 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:14:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/cms/header.php:1) in /home/elinguah/public_html/cms/login.php on line 26
+[21-Apr-2021 12:15:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:15:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/cms/header.php:1) in /home/elinguah/public_html/cms/login.php on line 26
+[21-Apr-2021 12:16:59 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:16:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/cms/header.php:1) in /home/elinguah/public_html/cms/login.php on line 26
+[21-Apr-2021 12:18:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:20:34 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:20:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/cms/header.php:1) in /home/elinguah/public_html/cms/login.php on line 26
+[21-Apr-2021 12:20:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:20:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/cms/header.php:1) in /home/elinguah/public_html/cms/login.php on line 26
+[21-Apr-2021 12:32:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:32:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/cms/header.php:1) in /home/elinguah/public_html/cms/login.php on line 26
+[21-Apr-2021 12:32:34 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:32:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/cms/header.php:1) in /home/elinguah/public_html/cms/login.php on line 26
+[21-Apr-2021 12:34:46 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:34:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/elinguah/public_html/cms/dashboard.php on line 2
+[21-Apr-2021 12:35:14 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/elinguah/public_html/cms/dashboard.php on line 2
+[21-Apr-2021 12:35:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 12:35:25 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/elinguah/public_html/cms/dashboard.php on line 2
+[21-Apr-2021 12:36:06 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 3
+[21-Apr-2021 13:14:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:17:02 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:17:07 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:17:46 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:17:49 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:17:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:18:09 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:18:13 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:18:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:18:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:18:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:18:49 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:18:49 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:19:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:19:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:21:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:21:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:21:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:21:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:21:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:21:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:22:04 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:22:04 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:22:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:22:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:24:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/delete.php on line 5
+[21-Apr-2021 13:24:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[21-Apr-2021 13:32:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/elinguah/public_html/cms/header.php on line 1
+[22-Apr-2021 10:11:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/elinguah/public_html/cms/new.php on line 54
+[22-Apr-2021 12:44:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/elinguah/public_html/cms/new.php on line 54
+[22-Apr-2021 12:46:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/elinguah/public_html/cms/new.php on line 54
+[22-Apr-2021 12:47:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/elinguah/public_html/cms/new.php on line 54
+[22-Apr-2021 12:52:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/elinguah/public_html/cms/new.php on line 54
+[22-Apr-2021 12:53:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/elinguah/public_html/cms/edit.php on line 56

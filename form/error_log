@@ -1,0 +1,10 @@
+[22-Apr-2021 07:54:16 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/elinguah/public_html/form/subcription.php on line 18
+[22-Apr-2021 13:18:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elinguah/public_html/form/config.php:12) in /home/elinguah/public_html/form/register.php on line 69
+[23-Apr-2021 06:48:32 UTC] PHP Parse error:  syntax error, unexpected '$from' (T_VARIABLE) in /home/elinguah/public_html/form/register.php on line 65
+[23-Apr-2021 06:49:59 UTC] PHP Parse error:  syntax error, unexpected '$from' (T_VARIABLE) in /home/elinguah/public_html/form/register.php on line 65
+[23-Apr-2021 06:50:08 UTC] PHP Parse error:  syntax error, unexpected '$from' (T_VARIABLE) in /home/elinguah/public_html/form/register.php on line 65
+[23-Apr-2021 16:34:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/elinguah/public_html/form/register.php on line 64
+[23-Apr-2021 16:35:01 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/elinguah/public_html/form/register.php on line 64
+[23-Apr-2021 16:35:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/elinguah/public_html/form/register.php on line 64
+[23-Apr-2021 17:38:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/elinguah/public_html/form/register.php on line 64
+[23-Apr-2021 18:11:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/elinguah/public_html/form/register.php on line 64

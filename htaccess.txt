@@ -1,0 +1,26 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^elinguahub\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elinguahub\.com$
+RewriteRule ^/?$ "https\:\/\/elinguahub\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_REFERER} !^http://elinguahub.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://elinguahub.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.elinguahub.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.elinguahub.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://elinguahub.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://elinguahub.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.elinguahub.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.elinguahub.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ https://elinguahub.com [R,NC]
+
+<IfModule mod_security.c>
+  SecFilterEngine Off
+  SecFilterScanPOST Off
+</IfModule>
+
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"

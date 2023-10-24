@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://elinguahub.com/</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/groupcourse.php?nextpage=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/personalcourse.php?nextpage=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/product.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/about.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/signin.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/register.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/categorycourses.php?cat=Sanskrit&amp;nextpage=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/categorycourses.php?cat=German&amp;nextpage=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/categorycourses.php?cat=French&amp;nextpage=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/course.php?course_id=608175684e51eGer</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/course.php?course_id=6081743ce65c8San</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/course.php?course_id=6081737594599Bas</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/course.php?course_id=608172cc3b516Bas</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/terms.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/mission.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/help.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/cms/</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/course.php?course_id=6081717b0f82fBas</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.14</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/forgotpassword.php</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.14</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/payment.php?id=608175684e51eGer&amp;title=German%20for%20Li%E2%80%99l%20Champs%20&amp;amt=1000&amp;opted_user=3</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.14</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/payment.php?id=6081743ce65c8San&amp;title=Sanskrit%20for%20Li%E2%80%99l%20Champs%20&amp;amt=600&amp;opted_user=2</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.14</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/payment.php?id=6081737594599Bas&amp;title=Basic%20Sanskrit%20Course,%20Level-3&amp;amt=500&amp;opted_user=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.14</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/payment.php?id=608172cc3b516Bas&amp;title=Basic%20Sanskrit%20Course,%20Level-%202&amp;amt=500&amp;opted_user=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.14</priority>
+</url>
+<url>
+  <loc>https://elinguahub.com/payment.php?id=6081717b0f82fBas&amp;title=Basic%20Sanskrit%20Course%20Level-1%20&amp;amt=500&amp;opted_user=0</loc>
+  <lastmod>2021-06-15T10:51:51+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+
+
+</urlset>
