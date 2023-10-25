@@ -10,20 +10,21 @@ addEventListener('click', (e)=>{
 
 })
 
-islogin();
 
-const islogin = ()=>{
+
+const islogin = async ()=>{
     let key1 = sessionStorage.getItem("key1");
     let key2 = sessionStorage.getItem("key2");
     let key3 = sessionStorage.getItem("key3");
-      fetch(`./auth.php?k1=${key1}&k2=${key2}`).then((res)=>{
-         console.log(res);
+    let val = false;
+     await fetch(`./auth.php?k1=${key1}&k2=${key2}`).then((res)=>{
          return res.json();
      }).then((data=>{
          if(key3 == data){
-            location.href="./dashboard.php";
+            val = true;
         }
-     }))
+     }));
+     return val;
  }
 
  

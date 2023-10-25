@@ -50,6 +50,16 @@
 require 'footer.php';
 ?>
 
+<script>
+            await islogin().then((res)=>{
+                if(res== false){
+                    location.href= './index.php';
+                }
+                else{
+                   
+                }
+             });
+          </script>
 
 
 

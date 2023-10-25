@@ -22,6 +22,14 @@
               <?php require 'footer.php'; ?>
  
         <script>
+          islogin().then((res)=>{
+                if(res== false){
+
+                }
+                else{
+                    location.href= './dashboard.php';
+                }
+             });
           
         const getLogin = (e)=>{
             e.preventDefault();
