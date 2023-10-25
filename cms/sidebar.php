@@ -14,5 +14,5 @@
           <li><i class="fa fa-flag" aria-hidden="true"></i> <a href="banner.php">&nbsp;Edit Home Banner</a></li>
           <li><i class="fa fa-user" aria-hidden="true"></i> <a  id="signOut" >&nbsp;Log out</a ></li>
     
-    <li><i class="fa fa-globe"  ></i> <a target="_blank"href="https://elinguahub.com/">&nbsp;View Website</a></li> 
+    <li><i class="fa fa-globe"  ></i> <a target="_blank"href="../">&nbsp;View Website</a></li> 
 </div>

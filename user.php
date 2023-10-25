@@ -13,18 +13,18 @@
                     </div>  
                     <hr>
                     <br>
-                           <div class="container">
-
+                           <div class="container toggle" id="mycourse" >
                                                         <table id="myTable">
                                         <thead>
                                             <tr>
-                                                <th>Course Id</th>
                                                 <th>Course Name</th>
-                                                <th>Option</th>
+                                                <th>Course Option</th>
+                                                
                                             </tr>
                                           
                                         </thead>
-                                        <tbody id="tableBody"></tbody>
+                                        <tbody id="tableBody">
+                                           </tbody>
                                     </table>
 
                             </div>
@@ -64,12 +64,10 @@
     jsonData.forEach((item) => {
             const row = tableBody.insertRow();
             const nameCell = row.insertCell(0);
-            const ageCell = row.insertCell(1);
-            const countryCell = row.insertCell(2);
+           const countryCell = row.insertCell(1);
 
-            nameCell.innerHTML = item.courseid;
-            ageCell.innerHTML = item.coursename;
-            countryCell.innerHTML = `<a class="btn1"href="./usercourse.php?id=${item.courseid}">Take Course Now</a>`
+            nameCell.innerHTML = item.coursename;
+           countryCell.innerHTML = `<a class="btn"href="./usercourse.php?id=${item.courseid}">Take Course Now</a>`
         });
 })
 

@@ -1,6 +1,6 @@
 <?php
  
- $sql = "SELECT * FROM coursetable WHERE type='Online course'";
+ $sql = "SELECT * FROM coursetable WHERE type='Online'";
  $data = mysqli_query($con, $sql);
  $len = mysqli_num_rows($data);
  

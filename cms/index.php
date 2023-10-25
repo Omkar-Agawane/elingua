@@ -3,7 +3,7 @@
  <div class="container-login">
  <img src="../res/logo.svg"  alt="">
  <h3>Log in to the site manager </h3>
-<p class="alert"> </p>
+    <p class="alert"> </p>
                 <form method="post" onsubmit="getLogin(event)">
                     <div class="">
                         <div class="icontainer">
@@ -20,8 +20,7 @@
                 </div>
               
               <?php require 'footer.php'; ?>
- 
-        <script>
+<script>
           islogin().then((res)=>{
                 if(res== false){
 
@@ -67,5 +66,5 @@
                 passInput.setAttribute('type', 'password'); 
     }
     
-});
+
 </script>

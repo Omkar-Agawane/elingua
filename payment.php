@@ -4,13 +4,10 @@ $course_id = $_GET['id'];
 $coursename = $_GET['title'];
 $amt = $_GET['amt'];
 $opted_user = $_REQUEST['opted_user'];
-if(!isset($_SESSION['user'])){
-    echo "<script> location.href='./register.php'; </script>";
-    exit;
-}
 
-$temp = $_SESSION['user'];
-$username = $_SESSION['userName'];
+
+//$temp = $_SESSION['user'];
+$username = $_REQUEST['userName'];
     require './fetch/paymentfetch.php';
 ?>
 <div class="payment container">
@@ -28,7 +25,8 @@ $username = $_SESSION['userName'];
  opted = "<?php echo $opted_user; ?>"; 
  amt = "<?php echo $amt; ?>";
 var options = {
-    "key": "rzp_live_UXJRhtjcdNLfXA", // Enter the Key ID generated from the Dashboard
+   // "key": "rzp_live_UXJRhtjcdNLfXA", // Enter the Key ID generated from the Dashboard lingua key
+    "key": "rzp_test_JAaAbZF7Y4vPwH",
     "amount": "500", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
     "name": "Elinguahub",
@@ -60,7 +58,7 @@ var options = {
     }
 };
 options.amount = amt*100;
-options.prefill.name = "<?php echo $temp; ?>";
+options.prefill.name = "dummy";
 options.prefill.email =  "<?php echo $email; ?>";
 options.prefill.contact =    "<?php echo $phone; ?>";
 
@@ -82,3 +80,14 @@ document.getElementById('rzp-button1').onclick = function(e){
 </script>
 
 <?php require 'footer.php'; ?>
+
+<script>
+       const user = islogin().then((res)=>{
+        if(res == false){
+            location.href = "./signin.php";
+    }
+    else{
+        
+    }
+    });
+</script>

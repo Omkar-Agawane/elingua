@@ -1,5 +1,4 @@
 <?php require 'header.php';
-if(isset($_SESSION['name'])){
 require 'sidebar.php'; ?>
          
 <?php $id = $_GET['id'];?>
@@ -12,8 +11,8 @@ require 'sidebar.php'; ?>
        <br>
        <form method="post" action="<?php echo WEBSITE;?>/cms/commentMain.php?id=<?php echo $id;?>" enctype="multipart/form-data">
             <p class="input-lable">Add Comments</p>
-                <input class="#" name="name" id="header"  placeholder="Name" minlength="4" maxlength="20" size="20"><br> <br>
-                <input class="#" name="comment"  placeholder="Comments" ><br>
+                <input class="#" name="name" id="header"  placeholder="Person Name" minlength="4" maxlength="20" size="20"><br> <br>
+                <input class="#" name="comment"  placeholder="Comment" ><br>
                 
                 <br>
                 <br>
@@ -22,9 +21,6 @@ require 'sidebar.php'; ?>
     </div>
            
            
-
-<?php }?>
-
 
 
             <script>

@@ -139,16 +139,15 @@ if (sliderContentM.length > 0) {
 
 
 /*login function*/
-const getLogin = (e)=>{
+const getLogin = async (e)=>{
     e.preventDefault();
     const formData = new FormData(e.target);
 
-    fetch("./form/signin.php",{
+   await fetch("./form/signin.php",{
         method: "POST",
         mode: "same-origin",
         body:formData
     }).then((res) =>{
-       
         return res.json();
     } ).then((data)=>{
         if(data == "err"){
@@ -160,7 +159,7 @@ const getLogin = (e)=>{
             sessionStorage.setItem("clinetkey3", data.key3);
             sessionStorage.setItem("user", data.fname);
             sessionStorage.setItem("username", formData.get('username'));
-            location.href= "./user.php";///start here
+             location.href= "./user.php";///start here
         }
     })
 }

@@ -15,14 +15,10 @@
                     <div class="v-flex course-dec">
                         <h2 class="title-large"><?php echo $title; ?></h2>
                         <p class="limit-line-2"><?php echo  $details;?></p>
-                        <div>
-                            <img src="./cms/<?php echo $image2;?>" class="profile-pic" alt="tutor profile">
-                            <p class=""><?php echo $tutor;?></p>
-                        </div>
                         <h3 class=""><b>₹
                                 <?php echo $price; ?>
                             </b></h3><br>
-                        <a href="./payment.php?id=<?php echo $course_id;?>&title=<?php echo $title; ?>&amt=<?php echo $price; ?>&opted_user=<?php echo $opted_user; ?> ">
+                        <a id="payment_link" href="./payment.php?id=<?php echo $course_id;?>&title=<?php echo $title; ?>&amt=<?php echo $price; ?>&opted_user=<?php echo $opted_user;?>&userName= ">
                             <button class=" secondary-btn">Enroll Now</button></a>
                     </div>
 
@@ -32,6 +28,14 @@
             </div>
         </div>
         <hr>
+        <h3>Teaching Faculty</h3>
+        <br>
+        <div class="inline-block">
+                            <img src="./cms/<?php echo $image2;?>" class="profile-pic" alt="tutor profile">
+                            <p class=""><?php echo $tutor;?></p>
+                        </div>
+
+                        <hr>
         <div class="c" id="c">
             <?php echo $description ; ?>
         </div>
@@ -59,41 +63,11 @@
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script>
+        let username = sessionStorage.getItem("username");
+      let hrefPayment =   document.getElementById("payment_link").href;
+       hrefPayment = hrefPayment + username;
+       document.getElementById("payment_link").href =hrefPayment;
+      console.log(hrefPayment);
     </script>
     <?php require 'footer.php' ; ?>

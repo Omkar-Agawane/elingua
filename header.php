@@ -163,7 +163,7 @@ require './fetch/headerfetch.php';
                     <?php };?>
                    <li class="li" style="float:right">
                         <?php if(isset($_SESSION['user'])== false ){ ?>
-                       <a href="./signin.php" id="userIcon"><i class="fa fa-user" aria-hidden="true"></i> <span class="mobile_hide">Hello Guest!</span></a>
+                       <a href="./signin.php" id="userIcon"><i class="fa fa-user" aria-hidden="true"></i> <span class="mobile_hide">My Account</span></a>
                 <?php
             }
             else{ ?>

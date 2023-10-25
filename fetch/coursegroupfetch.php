@@ -1,7 +1,6 @@
-
 <?php
  
- $sql = "SELECT * FROM coursetable WHERE type='Group live class'";
+ $sql = "SELECT * FROM coursetable WHERE type='Group'";
  $data = mysqli_query($con, $sql);
  $len = mysqli_num_rows($data);
  

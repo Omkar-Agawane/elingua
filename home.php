@@ -7,11 +7,11 @@
      </div>
  </div>
  <div class="container">
-     <div class="course-display">
+     <div class="course-display-home">
          <?php while($temp > $len1-4){ ?>
             <div class="card">
                  <a href="./course.php?course_id=<?php echo $id[$temp-1]; ?>">
-                 <img src="./cms/<?php echo $image[$temp-1];?>" alt="">
+                 <img src="./cms/<?php echo $image[$temp-1];?>" alt="<?php echo $title[$temp-1]; ?>">
                  <div class="card-title">
                  <h3 class="title-small cc limit-line-2 grayscale"><?php echo $title[$temp-1]; ?></h3>
                      <small class="limit-line-2"><?php echo  $details[$temp-1];?></small>  <br>
@@ -33,7 +33,7 @@
      </div>
  </div>
  <div class="container">
-     <div class="course-display">
+     <div class="course-display-home">
          <?php while($temp1 > $len2-4 ){ ?>
 
          <div class="card">
@@ -53,9 +53,6 @@
          </div>
 
          <?php $temp1--; }?>
-
-
-
      </div>
  </div>
 
