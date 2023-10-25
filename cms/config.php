@@ -6,7 +6,7 @@ define("PASSWORD", "");
 define("DATABASE", "elinguahub_db");*/
 ?> 
 <?php  
-define("WEBSITE", "http://elinguahub.com");
+define("WEBSITE", "https://elinguahub.com");
 define("SERVER", "localhost");
 define("USERNAME", "u702940361_elinguahub");
 define("PASSWORD", "SSYeM2y=");

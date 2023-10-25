@@ -11,7 +11,7 @@ define("WEBSITE", "https://elinguahub.com");
 define("SERVER", "localhost");
 define("USERNAME", "u702940361_elinguahub");
 define("PASSWORD", "SSYeM2y=");
-define("DATABASE", "u702940361_elinguahub_db");*/
+define("DATABASE", "u702940361_elinguahub_db");
 ?> 
 
 
