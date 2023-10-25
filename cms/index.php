@@ -59,12 +59,12 @@
             let showpass = document.querySelector('#showpass');
             showpass.addEventListener('click' , function(){
             let passInput=document.querySelector('#pass'); 
-            if(passInput.type=="password"){
-                 passInput.setAttribute('type', 'text'); 
-    }
-            else{
-                passInput.setAttribute('type', 'password'); 
-    }
-    
-
+                if(passInput.type=="password"){
+                    passInput.setAttribute('type', 'text'); 
+                    }
+                else{
+                        passInput.setAttribute('type', 'password'); 
+                    }
+        
+            });
 </script>
